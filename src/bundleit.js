@@ -2,6 +2,6 @@
 
 var minify = require("./minify");
 
-module.exports = function(world){
-	console.log(world);
+module.exports = function(path,output){
+	minify(path,output);
 };

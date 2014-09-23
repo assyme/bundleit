@@ -1,0 +1,6 @@
+{
+	"rootPath" : "./test_files",
+	"bundles" : {
+		"package1.js" : ["./test_files/test1.js","./test_files/test2.js"]
+	}
+}

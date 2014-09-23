@@ -1,0 +1,1 @@
+"use strict";var app=app||{};app.foo=function(){var o="yo";return{a:function(){console.log(o)},b:function(){console.log(o)}}};var app=app||{};app.foo2=function(){var o="yo";return{a:function(){console.log(o)},b:function(){console.log(o)}}};

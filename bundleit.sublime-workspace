@@ -1,0 +1,688 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bund",
+				"bundleConfig"
+			],
+			[
+				"bun",
+				"bundleConfig"
+			],
+			[
+				"bundl",
+				"bundleByJsonConfig"
+			],
+			[
+				"file",
+				"fileout"
+			],
+			[
+				"mini",
+				"minify"
+			],
+			[
+				"item",
+				"itemIdToRemove"
+			],
+			[
+				"and",
+				"andCallFake"
+			],
+			[
+				"inje",
+				"injector_"
+			],
+			[
+				"cha",
+				"changeQuantity"
+			],
+			[
+				"add",
+				"addItems"
+			],
+			[
+				"addI",
+				"addItems"
+			],
+			[
+				"local",
+				"localstorage"
+			],
+			[
+				"root",
+				"rootScope"
+			],
+			[
+				"Revi",
+				"mockReviewer"
+			],
+			[
+				"mock",
+				"mockReviewer"
+			],
+			[
+				"_re",
+				"_reject"
+			],
+			[
+				"to",
+				"toBe"
+			],
+			[
+				"ret",
+				"retrievedCart"
+			],
+			[
+				"mo",
+				"mockStorage"
+			],
+			[
+				"ad",
+				"addItems"
+			],
+			[
+				"cart",
+				"cartService"
+			],
+			[
+				"addIt",
+				"addItem"
+			],
+			[
+				"be",
+				"beforeEach"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"get",
+				"getCart"
+			],
+			[
+				"check",
+				"checkmarkFilter"
+			],
+			[
+				"phone",
+				"phonecatApp"
+			],
+			[
+				"http",
+				"httpBackend"
+			],
+			[
+				"httpBac",
+				"httpBackend"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"Fl",
+				"FlightListView"
+			],
+			[
+				"fligh",
+				"flightPanel"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"cm",
+				"compiledTemplate"
+			],
+			[
+				"comp",
+				"compiledTemplate"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"google",
+				"googleMap"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"head",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "var fs = require(\"fs\");\nvar bundleit  = require('./src/bundleit');\n\n\nvar bundleByJsonConfig = function(bundleConfig){\n	var rootPath = bundleConfig.rootPath;\n	for (var key in bundleConfig.bundles){\n		var fileList = bundleConfig.bundles[key];\n		bundleit(rootPath + \"/\" fileList,)\n	}\n}\n\nvar exec = function(){\n	\n	//Read the bundle.json file.\n	var bundleJson;\n	fs.readFile(\"./bundle.json\",{encoding : \"utf8\"},function(err,data){\n		if (err){\n			throw err;\n		}else{\n			bundleByJsonConfig(JSON.parse(data));\n		}\n	});\n\n\n\n	//bundleit(\"./test_files/test1.js\",\"./test_files/test1.min.js\");	\n\n}\n\n\nexec();\n",
+			"file": "index.js",
+			"file_size": 520,
+			"file_write_time": 1411499940000000,
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/minify.js",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test_files/test1.js",
+			"settings":
+			{
+				"buffer_size": 234,
+				"line_ending": "Unix",
+				"name": "\"use strict\";"
+			}
+		},
+		{
+			"file": "test_files/file2.js",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix",
+				"name": "\"use string\":"
+			}
+		},
+		{
+			"file": "src/bundleit.js",
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bundle.json",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/js/services.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/bower.json",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/index.html",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/partials/phone-list.html",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/partials/phone-detail.html",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/js/app.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/js/controllers.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/test/unit/controllersSpec.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/test/e2e/scenarios.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/app/js/filters.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/test/unit/filtersSpec.js",
+		"/Users/Asad/Documents/Development/Tutorial/angular-phonecat/test/unit/servicesSpec.js",
+		"/Users/Asad/Documents/Parallels/Windows7Share/FlightsTemplate/Resource/JavaScript/FlightListing.source.js",
+		"/Users/Asad/Documents/Development/jquery.min.js",
+		"/Users/Asad/Documents/Development/hello.js",
+		"/Users/Asad/Documents/Parallels/Windows7Share/FlightsTemplate/Trip/Resource/Template/Flights.html",
+		"/Users/Asad/Documents/Parallels/Windows7Share/FlightsTemplate/Resource/JavaScript/dust.full.js",
+		"/Users/Asad/Library/Application Support/Sublime Text 2/Packages/User/script.sublime-snippet",
+		"/Users/Asad/Library/Application Support/Sublime Text 2/Packages/User/hello",
+		"/Users/Asad/Documents/Parallels/Windows7Share/Musafir Docs/extracthotels.txt",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPictureInfo.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyBase.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyController.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyDescriptionDetailsInfo.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyInfo.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyItemBase.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyItemBaseExtension.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyItemController.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelPropertyItemInfo.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelRoomDetailsExtension.cs",
+		"/Volumes/C/Users/Asad/Downloads/Musafir Docs/HotelProperty/HotelProperty/HotelRoomDetailsInfo.cs",
+		"/tmp/subl stdin rgmlgZ.txt",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/css/starter.css",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/css/bootstrap.min.css",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/js/index.js",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/js/jquery.min.js",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/js/handlebars.js",
+		"/Users/Asad/Documents/Development/cordovaApps/clubcentral/www/index.html",
+		"/Users/Asad/Documents/Development/cordovaApps/AduClubMob/www/index.html",
+		"/Users/Asad/Documents/Development/python/home.html",
+		"/Users/Asad/Documents/Development/python/fib.py",
+		"/tmp/subl stdin hWu8E4.txt",
+		"/tmp/subl stdin 88J0cu.txt",
+		"/Users/Asad/Documents/GitRepos/ChatIol/ChatIol/ChatIol.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/lib/router.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/includes/access_denied.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/includes/header.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estateSubmit.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estate_submit.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/collections/estates.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estates_list.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/application/layout.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/maps/mapEstateList.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/lib/googlemaps.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/maps/maps_estate_list.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/stylesheets/style.css",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/main.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/server/fixtures.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/maps.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/helpers/config.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estate_item.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estatesList.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/server/publications.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/estates/estate_page.html",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/main.js",
+		"/Users/Asad/Documents/GitRepos/node-classifieds/src_meteor/finder/client/views/includes/loading.html",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/billShare.html",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/main.html",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/collections/expenses.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/server/fixtures.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/views/expense_list.html",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/views/expense_list.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/server/publications.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/main.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/views/application/layout.html",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/lib/router.js",
+		"/Users/Asad/Documents/Development/mateorApps/billShare/client/views/expense_item.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"cart\"",
+			"persist",
+			"cartService",
+			"jasmine",
+			"mockReviewer",
+			"rootScope",
+			"\");\n",
+			"phonecatControllers",
+			"phonecatApp",
+			"HotelListView",
+			"\"fd\"",
+			"112",
+			"mobile",
+			"mobil",
+			"time",
+			"estate",
+			"Estate",
+			"estate",
+			"Market",
+			"market",
+			"\n",
+			"market",
+			"alles",
+			"LanLngs",
+			"lon",
+			"();\n",
+			"()){",
+			"post",
+			", ",
+			">\n",
+			"estateData",
+			"postsData",
+			"27834",
+			"introducing",
+			"Introducing",
+			"url",
+			"author",
+			"estateList",
+			"expenses",
+			"header",
+			"ammount"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/minify.js",
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test_files/test1.js",
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"use strict\";",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test_files/file2.js",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"use string\":",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/bundleit.js",
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bundle.json",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"router",
+				"lib/router.js"
+			],
+			[
+				"estates",
+				"client/views/estates/estateSubmit.js"
+			],
+			[
+				"router.",
+				"lib/router.js"
+			],
+			[
+				"es",
+				"client/views/estates/estateList.js"
+			],
+			[
+				"fix",
+				"server/fixtures.js"
+			],
+			[
+				"estatesl",
+				"client/views/estates/estateList.js"
+			],
+			[
+				"html",
+				"client/main.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}
